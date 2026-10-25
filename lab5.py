@@ -14,9 +14,9 @@ for i in range(0,3):
 for item in it_ob: 
     try:
         hash(item)
-        print(f"{item} Хашируем")
+        print(f"{item} РҐР°С€РёСЂСѓРµРј")
     except TypeError:
-        print(f"{item} Нехашируем")
+        print(f"{item} РҐР°С€РёСЂСѓРµРј")
         if item is None:
             item = 0  
         elif isinstance(item, str):
